@@ -10,7 +10,8 @@
 ### 2. Téléchargez les fichiers d'installation de Nagios Core.
 #### wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.5.9.tar.gz
 
-### 3. Extraire les fichiers téléchargés : sudo tar -zxvf nagios-4.5.9.tar.gz
+### 3. Extraire les fichiers téléchargés : 
+#### sudo tar -zxvf nagios-4.5.9.tar.gz
 
 ### 4. Accédez au répertoire d’installation nagios-4.5.9
 
@@ -80,4 +81,5 @@
 
 ### 28. Accéder aux modules Hosts et services pour récupérer les informations pertinentes
 ## N.B: en cas de problème, essayer de modifier le fichier de configuration global de nagios :
+
 #### /usr/local/nagios/etc/cgi.cfg
